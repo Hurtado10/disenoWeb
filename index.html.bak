@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+    <style>body {
+        width: 80%;    
+        margin: 0 auto;
+        font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;   
+        background: #eee9df url(../images/tile1.png) center top repeat;
+      }
+      h1 {
+        font: 18pt Helvetica,"Helvetica neue", Arial, sans-serif;    
+        text-transform: uppercase;
+        color: #e5b7ad;    
+        padding-top: 30px ;
+      }
+      body > header {    
+        padding:0px;
+        text-align: center;  
+        overflow: auto;
+      }
+      body > header > h1 {
+        float:left;
+        width: 75%;
+        font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;    
+        text-align: center;
+      }
+      body > header > picture {
+        float:left;
+        width: 20%;
+      }
+      body > header > picture > img {
+        width: 100%;
+      }
+
+      body > section {	
+        float: right;
+        width: 70%;	
+        padding-left: 20px;
+        margin: 0 0 20px 0px;	
+        border-left: 2px dotted #b2a497;
+      }
+      body > section h2 {
+        font: 14pt Helvetica,"Helvetica neue", Arial, sans-serif;	
+        font-weight: lighter;
+        text-transform: uppercase;	color: #493831;
+        padding-bottom: 10px;	
+	margin: 0;
+      }      
+      nav { 
+	text-align: center;		
+      }
+      nav a{
+	padding: 30px;
+      }
+      aside{	
+        float: left;
+        width: 20%;	
+        min-height: 480px;
+        margin: 0 0 20px 0;
+      }
+      footer{	clear:both;
+        height: 100px;	
+        padding: 10px;
+        color:#200f08 ;	
+        background:#ddd3bf;
+          /*Opacity*/
+        filter:alpha(opacity=50); /* msie */  	
+        -moz-opacity: 0.50; /* firefox 1.0 */  
+        -khtml-opacity: 0.50; /* webkit */  	
+        opacity: 0.50; /* css 3 */
+        /*Gradient*/
+        background-image: -moz-linear-gradient(top, #ddd3bf, #bcae91); /* FF3.6 */	
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ddd3bf),color-stop(1, #bcae91)); /* Saf4+, Chrome *
+        filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd3bf', EndColorStr='#bcae91');   /* IE6,IE7 */	
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd3bf', EndColorStr='#bcae91')"; /* IE8 */
+        /*Round corners*/
+        -moz-border-radius: 12px; /* FF1+ */	-webkit-border-radius: 12px; /* Saf3+, Chrome */
+        border-radius: 12px; /* Opera 10.5, IE 9 */
+      }
+        form div 
+      {
+        padding:10px;
+      }
+      form div > label
+      {
+        display: block;
+        width: 100%;
+      }</style>
+  </head>
+  <body>
+    <header>
+      <h1> BIENVENIDO A LA WEB DE MUEBLES RETT </h1>
+      <picture> <img src="imagenes/logoempresa.jpeg"></picture></header>
+    <nav><a href="ejerciciosTema2/nosotros.html">Nosotros</a> <a href="ejerciciosTema2/nuestrosServicios.html">Nuestros
+        Servicios</a><a href="opinion.html">Tu opinión cuenta</a></nav>
+    <aside>
+      <h2> Conócenos mejor</h2>
+      <section>
+        <h3> Noticias destacadas</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa
+          odio, efficitur ornare dolor et, tempus sodales orci. Quisque non orci
+          auctor, tempus lacus id, interdum nisl. Integer commodo eros vitae
+          malesuada egestas. Vivamus et lacus erat. Fusce commodo vitae purus
+          vitae facilisis. Aliquam ullamcorper tortor dui, ut suscipit tortor
+          tristique non. Mauris faucibus tellus ac felis vulputate finibus.
+          Aliquam erat volutpat. Nam mattis rhoncus consectetur. Nullam
+          molestie, dui nec sagittis consectetur, lectus nisl tristique massa,
+          quis faucibus justo elit sit amet justo. Phasellus euismod nunc nunc,
+          quis dignissim diam commodo a. Suspendisse tellus turpis, congue in
+          gravida id, tristique et nunc. Vestibulum gravida urna ut efficitur
+          rhoncus. Nunc consequat mi nec elit consectetur, a porta neque
+          aliquet. Phasellus lobortis aliquam lectus, sed fringilla sapien
+          gravida vitae.</p>
+        <p> Phasellus nec rhoncus est. Nullam blandit lectus id velit dictum,
+          vel finibus arcu elementum. Nam nec ex ut tortor posuere condimentum.
+          Aliquam interdum, dolor et tincidunt scelerisque, dui nulla dictum
+          massa, quis aliquam risus mi id felis. Sed sodales est non justo
+          condimentum pulvinar. In molestie nisl ut odio commodo, quis pretium
+          metus malesuada. Quisque at leo id dui consectetur tincidunt. Vivamus
+          ut varius massa, malesuada porttitor risus. Nulla blandit mattis
+          dignissim. </p>
+      </section>
+    </aside>
+    <section>
+      <header>
+        <h1> Artículo 1 </h1>
+        <h2> Artículo 1.1</h2>
+      </header>
+      <article>
+        <h3> Título 1 </h3>
+        <p>Phasellus nec rhoncus est. Nullam blandit lectus id velit dictum, vel
+          finibus arcu elementum. Nam nec ex ut tortor posuere condimentum.
+          Aliquam interdum, dolor et tincidunt scelerisque, dui nulla dictum
+          massa, quis aliquam risus mi id felis. Sed sodales est non justo
+          condimentum pulvinar. In molestie nisl ut odio commodo, quis pretium
+          metus malesuada. Quisque at leo id dui consectetur tincidunt. Vivamus
+          ut varius massa, malesuada porttitor risus. Nulla blandit mattis
+          dignissim. </p>
+      </article>
+      <article>
+        <h3> Título 2 </h3>
+        <p> Phasellus nec rhoncus est. Nullam blandit lectus id velit dictum,
+          vel finibus arcu elementum. Nam nec ex ut tortor posuere condimentum.
+          Aliquam interdum, dolor et tincidunt scelerisque, dui nulla dictum
+          massa, quis aliquam risus mi id felis. Sed sodales est non justo
+          condimentum pulvinar. In molestie nisl ut odio commodo, quis pretium
+          metus malesuada. Quisque at leo id dui consectetur tincidunt. Vivamus
+          ut varius massa, malesuada porttitor risus. Nulla blandit mattis
+          dignissim.
+          Etiam ac metus eget mauris efficitur lacinia ac et nulla. Mauris eget
+          libero ac nisl placerat egestas. Sed porta varius lacus, et molestie
+          massa vehicula at. Nulla maximus maximus erat eu feugiat. In a massa
+          vitae enim accumsan euismod. Vivamus vulputate nunc ut semper euismod.
+          Vestibulum vulputate libero sed faucibus interdum. Vestibulum id
+          tincidunt tortor, non porta lectus. Nam et blandit diam. Integer
+          mollis iaculis elit, ullamcorper viverra orci dignissim cursus. Donec
+          ut est finibus, ornare nisi a, molestie urna. Nullam non convallis
+          nulla. In ultricies, metus sit amet scelerisque venenatis, tellus
+          magna mattis lacus, convallis lacinia orci orci euismod augue.
+          Vestibulum hendrerit feugiat massa, id venenatis diam tristique non. </p>
+      </article>
+      <footer>
+        <h4> Autor </h4>
+        <p> Joaquín Pérez </p>
+      </footer>
+    </section>
+    <section>
+      <header>
+        <h1> Artículo 2 </h1>
+        <h2> Artículo 2.2 </h2>
+      </header>
+      <article>
+        <h3> Título 1 </h3>
+        <p> Phasellus nec rhoncus est. Nullam blandit lectus id velit dictum,
+          vel finibus arcu elementum. Nam nec ex ut tortor posuere condimentum.
+          Aliquam interdum, dolor et tincidunt scelerisque, dui nulla dictum
+          massa, quis aliquam risus mi id felis. Sed sodales est non justo
+          condimentum pulvinar. In molestie nisl ut odio commodo, quis pretium
+          metus malesuada. Quisque at leo id dui consectetur tincidunt. Vivamus
+          ut varius massa, malesuada porttitor risus. Nulla blandit mattis
+          dignissim. </p>
+        <p>Etiam ac metus eget mauris efficitur lacinia ac et nulla. Mauris eget
+          libero ac nisl placerat egestas. Sed porta varius lacus, et molestie
+          massa vehicula at. Nulla maximus maximus erat eu feugiat. In a massa
+          vitae enim accumsan euismod. Vivamus vulputate nunc ut semper euismod.
+          Vestibulum vulputate libero sed faucibus interdum. Vestibulum id
+          tincidunt tortor, non porta lectus. Nam et blandit diam. Integer
+          mollis iaculis elit, ullamcorper viverra orci dignissim cursus. Donec
+          ut est finibus, ornare nisi a, molestie urna. Nullam non convallis
+          nulla. In ultricies, metus sit amet scelerisque venenatis, tellus
+          magna mattis lacus, convallis lacinia orci orci euismod augue.
+          Vestibulum hendrerit feugiat massa, id venenatis diam tristique non. </p>
+      </article>
+      <article>
+        <h3> Título 2 </h3>
+        <p> Phasellus nec rhoncus est. Nullam blandit lectus id velit dictum,
+          vel finibus arcu elementum. Nam nec ex ut tortor posuere condimentum.
+          Aliquam interdum, dolor et tincidunt scelerisque, dui nulla dictum
+          massa, quis aliquam risus mi id felis. Sed sodales est non justo
+          condimentum pulvinar. In molestie nisl ut odio commodo, quis pretium
+          metus malesuada. Quisque at leo id dui consectetur tincidunt. Vivamus
+          ut varius massa, malesuada porttitor risus. Nulla blandit mattis
+          dignissim. </p>
+      </article>
+      <footer>
+        <h4> Autor </h4>
+        <p> Felipe García </p>
+      </footer>
+    </section>
+    <footer>CopyRight</footer>
+    <p><br>
+    </p>
+  </body>
+</html>
