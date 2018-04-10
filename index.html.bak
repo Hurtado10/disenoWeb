@@ -93,8 +93,8 @@
     <header>
       <h1> BIENVENIDO A LA WEB DE MUEBLES RETT </h1>
       <picture> <img src="imagenes/logoempresa.jpeg"></picture></header>
-    <nav><a href="ejerciciosTema2/nosotros.html">Nosotros</a> <a href="ejerciciosTema2/nuestrosServicios.html">Nuestros
-        Servicios</a><a href="opinion.html">Tu opinión cuenta</a></nav>
+    <nav><a href="ejerciciosTema2/nosotros.html">Nosotros</a> <a href="ejerciciosTema4/nuestrosServicios.html">Nuestros
+        Servicios</a><a href="ejerciciosTema3/opinion.html">Tu opinión cuenta</a></nav>
     <aside>
       <h2> Conócenos mejor</h2>
       <section>
@@ -148,17 +148,16 @@
           condimentum pulvinar. In molestie nisl ut odio commodo, quis pretium
           metus malesuada. Quisque at leo id dui consectetur tincidunt. Vivamus
           ut varius massa, malesuada porttitor risus. Nulla blandit mattis
-          dignissim.
-          Etiam ac metus eget mauris efficitur lacinia ac et nulla. Mauris eget
-          libero ac nisl placerat egestas. Sed porta varius lacus, et molestie
-          massa vehicula at. Nulla maximus maximus erat eu feugiat. In a massa
-          vitae enim accumsan euismod. Vivamus vulputate nunc ut semper euismod.
-          Vestibulum vulputate libero sed faucibus interdum. Vestibulum id
-          tincidunt tortor, non porta lectus. Nam et blandit diam. Integer
-          mollis iaculis elit, ullamcorper viverra orci dignissim cursus. Donec
-          ut est finibus, ornare nisi a, molestie urna. Nullam non convallis
-          nulla. In ultricies, metus sit amet scelerisque venenatis, tellus
-          magna mattis lacus, convallis lacinia orci orci euismod augue.
+          dignissim. Etiam ac metus eget mauris efficitur lacinia ac et nulla.
+          Mauris eget libero ac nisl placerat egestas. Sed porta varius lacus,
+          et molestie massa vehicula at. Nulla maximus maximus erat eu feugiat.
+          In a massa vitae enim accumsan euismod. Vivamus vulputate nunc ut
+          semper euismod. Vestibulum vulputate libero sed faucibus interdum.
+          Vestibulum id tincidunt tortor, non porta lectus. Nam et blandit diam.
+          Integer mollis iaculis elit, ullamcorper viverra orci dignissim
+          cursus. Donec ut est finibus, ornare nisi a, molestie urna. Nullam non
+          convallis nulla. In ultricies, metus sit amet scelerisque venenatis,
+          tellus magna mattis lacus, convallis lacinia orci orci euismod augue.
           Vestibulum hendrerit feugiat massa, id venenatis diam tristique non. </p>
       </article>
       <footer>
